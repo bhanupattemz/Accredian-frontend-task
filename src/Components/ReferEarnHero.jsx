@@ -18,7 +18,7 @@ const ReferEarnHero = () => {
                             <div className="flex flex-col sm:flex-row gap-4">
                                 <Popup />
                             </div>
-                            <div className="mt-12 flex items-center gap-10 flex-wrap">
+                            <div className="mt-12 flex items-center gap-10 flex-wrap justify-center">
                                 <div className="text-center">
                                     <p className="text-3xl md:text-xl font-bold">₹500</p>
                                     <p className="text-sm  opacity-80">You Earn</p>
