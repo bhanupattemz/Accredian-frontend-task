@@ -44,7 +44,7 @@ export default function Popup() {
             >
                 <Box component="form" onSubmit={handleSubmit}>
                     <DialogContent>
-                        {!verifymail ? (
+                        {verifymail ? (
                             <VerifyForm setVerify={setVerify} setDetails={setDetails} />
                         ) : (
                             <ReferralForm details={details} setOpen={setOpen} />

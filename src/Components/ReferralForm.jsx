@@ -113,19 +113,19 @@ const ReferralForm = ({ details, setOpen }) => {
 
   // Responsive typography styles
   const headerStyles = {
-    fontSize: isXs ? '1.6rem' : isSm ? '1.8rem' : '2rem',
+    fontSize: isXs ? '1.2rem' : isSm ? '1.6rem' : '1.8rem',
     fontWeight: 'bold',
     textAlign: 'center'
   };
 
   const subtitleStyles = {
-    fontSize: isXs ? '0.875rem' : '1rem',
+    fontSize: isXs ? '0.8rem' : '1rem',
     textAlign: 'center',
     mt: 1
   };
 
   const sectionTitleStyles = {
-    fontSize: isXs ? '1.2rem' : isSm ? '1.35rem' : '1.5rem',
+    fontSize: isXs ? '1rem' : isSm ? '1.2rem' : '1.4rem',
     fontWeight: 'bold',
     mb: 2,
     color: '#6366F1'
@@ -139,7 +139,7 @@ const ReferralForm = ({ details, setOpen }) => {
     <Box
       sx={{
         background: 'linear-gradient(135deg, #6366F1 0%, #8B5CF6 50%, #EC4899 100%)',
-        minHeight: '100vh',
+      
         py: { xs: 3, sm: 4, md: 6 },
         px: { xs: 1, sm: 2 }
       }}

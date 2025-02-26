@@ -73,7 +73,6 @@ const ReferralForm = ({ setVerify, setDetails }) => {
         <Box
             sx={{
                 background: 'linear-gradient(135deg, #6366F1 0%, #8B5CF6 50%, #EC4899 100%)',
-                minHeight: '100vh',
                 py: { xs: 3, sm: 4, md: 5, lg: 6 },
                 px: { xs: 1, sm: 1.5, md: 2, lg: 2 },
                 display: 'flex',

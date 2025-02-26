@@ -1,27 +1,46 @@
-.css-kw13he-MuiDialogContent-root{
-    padding: 0px !important ;
+.css-kw13he-MuiDialogContent-root {
+  padding: 0px !important;
 }
-main{
-    min-height: 100vh;
+
+main {
+  min-height: 100vh;
 }
 
 ::-webkit-scrollbar {
-    width: 8px;
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #7c3aed, #6366f1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #6d28d9, #4f46e5);
+}
+
+.css-1ycudgf {
+  min-height: 0px !important;
+}
+
+@media only screen and (max-width: 600px),
+(max-device-width:600px) {
+  .css-1epkcoq-MuiContainer-root{
+    padding: 0px !important;
   }
-  
-  ::-webkit-scrollbar-track {
-    background: transparent;
+  .css-10d30g3-MuiPaper-root-MuiDialog-paper{
+    margin: 15px !important;
   }
-  
-  ::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom, #7c3aed, #6366f1);
-    border-radius: 4px;
+  .css-u4uvlt-MuiContainer-root{
+    padding: 0px !important;
   }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(to bottom, #6d28d9, #4f46e5);
-  }
-  
-  .css-1ycudgf{
-    min-height: 0px !important;
-  }
+}
+
+/* @media only screen and (max-width: 1000px),
+(max-device-width:1000px) {
+
+} */
