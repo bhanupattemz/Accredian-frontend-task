@@ -26,6 +26,9 @@ main {
 .css-1ycudgf {
   min-height: 0px !important;
 }
+.css-1nbx5hx{
+  padding: 0px !important;
+}
 
 @media only screen and (max-width: 600px),
 (max-device-width:600px) {
@@ -38,6 +41,10 @@ main {
   .css-u4uvlt-MuiContainer-root{
     padding: 0px !important;
   }
+  .css-q7u9va{
+    padding: 0px !important;
+  }
+  
 }
 
 /* @media only screen and (max-width: 1000px),
